@@ -1,0 +1,151 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+74
+Este diagrama imprime el nuevo salario de un trabajador según su categoría
+6
+3
+3
+sal
+1
+0
+3
+cat
+3
+'c'
+6
+nvosal
+1
+0
+6
+2
+3
+nvo
+22
+'Tu nuevo salario es '
+1
+i
+2
+-1
+4
+1
+21
+'Bienvenido empleado'
+9
+1
+4
+i=-1
+4
+1
+26
+'Teclea tu salario actual'
+5
+1
+3
+sal
+7
+0
+1
+5
+sal<0
+6
+1
+1
+i
+1
+7
+13
+4
+1
+27
+'No hay salarios negativos'
+6
+1
+1
+i
+2
+-1
+13
+11
+4
+1
+395
+'Teclea tu categoría:                                                          S.- Sindicalizado                                                   C.- Confianza                                                        D.- Directivo                                                         E.- Ejecutivo                                            (tu categoría debe de estar entre comillas simples)'
+5
+1
+3
+cat
+4
+1
+27
+'Tu salario actual es ',sal
+7
+1
+1
+18
+cat='S' or cat='s'
+6
+1
+6
+nvosal
+13
+sal+ sal*0.20
+4
+1
+10
+nvo,nvosal
+13
+7
+1
+1
+18
+cat='C' or cat='c'
+6
+1
+6
+nvosal
+13
+sal +sal*0.10
+4
+1
+10
+nvo,nvosal
+13
+7
+1
+1
+18
+cat='D' or cat='d'
+6
+1
+6
+nvosal
+13
+sal +sal*0.05
+4
+1
+10
+nvo,nvosal
+13
+7
+1
+1
+18
+cat='E' or cat='e'
+4
+1
+37
+'Lo sentimos no tienes nuevo salario'
+13
+4
+1
+25
+'No existe esa categoría'
+13
+13
+13
+13
+1
